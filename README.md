@@ -1,7 +1,7 @@
 # cf-curator-cron
 Workaround to get curator running in CF after deprecating https://github.com/swisscom/logstash-buildpack, cronjob based on https://github.com/aptible/supercronic. 
 
-This will be replaced by Index Lifecycle Management in current ElasticSearch version (https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started-index-lifecycle-management.html)
+This will be replaced by Index Lifecycle Management in current ElasticSearch versions (https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started-index-lifecycle-management.html)
 
 # Usage 
 
@@ -14,4 +14,3 @@ Modify following files before pushing your curator:
 # Instructions
 
 To push to CF, simply execute `cf push cf-curator-cron`
-
