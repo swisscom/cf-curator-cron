@@ -1,0 +1,9 @@
+---
+applications:
+- name: cf-curator-cron 
+  memory: 24m
+  health-check-type: process 
+  command: ./supercronic crontab
+  buildpacks:
+  - https://github.com/cloudfoundry/python-buildpack.git
+  random-route: true

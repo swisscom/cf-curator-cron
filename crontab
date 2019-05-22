@@ -1,0 +1,3 @@
+# Run every 30 minutes
+#*/30 * * * * curator --config curator.yml actions.yml --dry-run
+*/30 * * * * curator --config curator.yml actions.yml
